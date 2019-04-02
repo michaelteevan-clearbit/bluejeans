@@ -46,7 +46,7 @@
       width: 100%;
     }
 
-    #left-container { color: #fff; width: 40%; margin-left: 9%; float: left; }
+    #left-container { color: #fff; width: 40%; margin-left: 5%; float: left; }
     #left-container h2 { font-size: 45px; }
     #right-container {
       background: #fff;
@@ -62,20 +62,36 @@
       width: 98% !important;
     }
 
-    /*
-
-    #mktoForm_1060 input[type=text], #mktoForm_1060 input[type=email],
-    #mktoForm_1060 input[type=tel], #mktoForm_1060 input[type=number] { width: 90%! important; }
-
+    #mktoForm_1060 label.mktoLabel.mktoHasWidth { display: none; }
     #mktoForm_1060 label, #mktoForm_1060 strong,
     #mktoForm_1060 input, #mktoForm_1060 div,
     #mktoForm_1060 button {
       font-size: 16px;
     }
 
-    #mktoForm_1060 .mktoHtmlText.mktoHasWidth { width: 500px; }
+    #mktoForm_1060 input[type=email],
+    #mktoForm_1060 input[type=text],
+    #mktoForm_1060 input[type=tel],
+    #mktoForm_1060 input[type=number] {
+      width: 90% !important;
+    }
 
-    #mktoForm_1060 .mktoFieldWrap { width: 190%; }*/
+    #mktoForm_1060 input[type=checkbox] {
+      /*margin-right: 15px;
+      box-sizing: border-box;
+      padding: 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      padding: 11px 23px;
+      border: 1px solid rgba(0,0,0,.15);
+      border-radius: 0 !important;
+      outline: 0;
+      background-color: transparent;*/
+    }
+
+    #mktoForm_1060 .mktoHtmlText.mktoHasWidth { width: 500px; color: #48505c; }
+
+    #mktoForm_1060 .mktoFieldWrap { width: 190%; }
 
     #mktoForm_1060 input {
       border: none;
@@ -87,6 +103,23 @@
     #mktoForm_1060 .mktoAsterix { display: none; }
     #mktoForm_1060 a, #mktoForm_1060 a:visited { color: #006ae2; text-decoration: none; }
     #mktoForm_1060 a:hover { text-decoration: underline; }
+
+    #mktoForm_1060 button {
+      padding: 0 48px;
+    border-width: 2px;
+    height: 56px;
+    line-height: 54px;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff!important;
+    background: #004dce!important;
+    border-color: transparent!important;
+    width: 100%;
+    outline: none!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    }
 
   </style>
 </head>
